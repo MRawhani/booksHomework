@@ -1,22 +1,136 @@
-.App {
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+header {
+  display: table;
+  background: #999;
+  width: 100%;
+  height: 4em;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  padding-left: 1em;
+}
+
+header .title {
+  float: left;
+}
+
+header .nav {
+  float: right;
+}
+
+header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 1em;
+  line-height: 4em;
+}
+
+header .nav ul li {
+  display: inline;
+}
+
+header .nav ul li a {
+  padding: 0.6em;
+}
+
+section .has-form {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+h2 {
   text-align: center;
+  color: #222;
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
+input[type="text"] {
+  display: block;
+  line-height: 2.5;
+  padding: 0 0.5em;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link {
+  background: #555;
+  border: none;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  color: #ccc;
 }
 
-.App-link {
-  color: #09d3ac;
+.link:hover {
+  background: #666;
+}
+
+label {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.message {
+  background: tomato;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 0.5em;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  background: #eee;
+}
+
+table tr:nth-child(2n) {
+  background: #ccc;
+}
+
+table th {
+  color: #ccc;
+  line-height: 2;
+  background: #555;
+}
+
+table td {
+  color: #333;
+  padding: 0.5em;
+}
+
+footer {
+  display: table;
+  background: #999;
+  width: 100%;
+  height: 2em;
+  display: block;
+  background: #999;
+  width: 100%;
+  height: 2em;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px
+}
+
+footer a {
+  color: #b6b4b4;
+  text-decoration-line: none
+}
+
+footer .copyr {
+  text-align: center;
 }
